@@ -1,10 +1,11 @@
-import ParticlesBg from "particles-bg";
+// import ParticlesBg from "particles-bg";
 
 export const Header = (props) => {
   return (
     <header id='header'>
+      {/* class intro have the background-image */}
       <div className='intro'>
-        <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} />
+        {/* <ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} /> */}
         <div className='overlay'>
           <div className='container'>
           
