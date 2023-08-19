@@ -55,7 +55,7 @@ export const Gallery = props => {
           {isViewerOpen && (
             <ImageViewer
               src={images}
-              backgroundStyle={{ zIndex: 99999 }}
+              backgroundStyle={{ zIndex: 9 }}
               currentIndex={currentImage}
               onClose={closeImageViewer}
             />

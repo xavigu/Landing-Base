@@ -12,7 +12,7 @@ This is a ReactJS based landing page template, fit for a startup company/service
 
 ### 1. Add your own data 
 - Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-- You can also change styles by modifying the ```public/css``` files.
+- You can also change styles by modifying the ```public/css/style.css``` file.
 - You can also change the header background-image by modifying the css image of ```intro class```.
 
 ### 2. Info project
