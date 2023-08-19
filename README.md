@@ -16,7 +16,8 @@ This is a ReactJS based landing page template, fit for a startup company/service
 - You can also change the header background-image by modifying the css image of ```intro class```.
 
 ### 2. Info project
-The file ```src/index.js``` render the file ```App.jsx``` into a browser DOM node ```public/index.html```
+- The file ```src/index.js``` render the file ```App.jsx``` into a browser DOM node ```public/index.html```
+- Search "TO CHANGE" in the repo to remember what you need to change.
 
 ## Credits
 ##### Free CSS 

@@ -24,6 +24,7 @@ export const Navigation = (props) => {
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
+          {/* TO CHANGE Put the components that you are going to use in the App.jsx file */}
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>

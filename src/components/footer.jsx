@@ -5,9 +5,9 @@ export const Footer = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            &copy; 2023 Xavigu React Land Page Template. Design by{' '}
+            <a href='https://www.linkedin.com/in/francisco-javier-guzm%C3%A1n-rosino-839464101/' rel='nofollow'>
+              Xavigu
             </a>
           </p>
         </div>
