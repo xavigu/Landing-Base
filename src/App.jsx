@@ -6,6 +6,7 @@ import { About } from './components/about'
 import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { GalleryHexa } from './components/gallery-hexagons'
+import { GalleryFlip } from './components/gallery-flip'
 import { Testimonials } from './components/testimonials'
 import { Footer } from './components/footer'
 import JsonData from './data/data.json'
@@ -29,7 +30,8 @@ const App = () => {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery />
+      <GalleryFlip />
+      {/* <Gallery /> */}
       {/* <GalleryHexa /> */}
       <Testimonials data={landingPageData.Testimonials} />
       <Footer />
