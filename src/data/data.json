@@ -107,6 +107,57 @@
             "job": "Project Manager"
         }
     ],
+    "TeamGrid": [
+        {
+            "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Franklin Carlson",
+            "job": "UX Designer",
+            "linkedin": "https://linkedin.com/in/midudev",
+            "twitter": "https://twitter.com/midudev"
+        },
+        {
+            "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Antonia Moore",
+            "job": "product designer",
+            "linkedin": "https://linkedin.com/in/midudev",
+            "twitter": "https://twitter.com/midudev"
+        }, {
+            "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Travis Lynch",
+            "job": "web developer",
+            "linkedin": "https://linkedin.com/in/midudev",
+            "twitter": "https://twitter.com/midudev"
+        }
+    ],
+    "Gallery": [
+        { "thumb": "img/portfolio/01-small.jpg", 
+          "title": "Lorem Ipsum1"
+        },
+        { "thumb": "img/portfolio/02-small.jpg", 
+          "title": "Lorem Ipsum2"
+        },
+        { "thumb": "img/portfolio/03-small.jpg", 
+          "title": "Lorem Ipsum3"
+        },
+        { "thumb": "img/portfolio/04-small.jpg", 
+          "title": "Lorem Ipsum4"
+        },
+        { "thumb": "img/portfolio/05-small.jpg", 
+          "title": "Lorem Ipsum5"
+        },
+        { "thumb": "img/portfolio/06-small.jpg", 
+          "title": "Lorem Ipsum6"
+        },
+        { "thumb": "img/portfolio/07-small.jpg", 
+          "title": "Lorem Ipsum7"
+        },
+        { "thumb": "img/portfolio/08-small.jpg", 
+          "title": "Lorem Ipsum8"
+        },
+        { "thumb": "img/portfolio/09-small.jpg", 
+          "title": "Lorem Ipsum9"
+        }
+    ],    
     "GalleryHexa": [
         { 
           "thumb": "https://picsum.photos/id/1040/300/300", 

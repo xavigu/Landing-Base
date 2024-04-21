@@ -17,7 +17,8 @@ This is a ReactJS based landing page template, fit for a startup company/service
 
 ### 2. Info project
 - The file ```src/index.js``` render the file ```App.jsx``` into a browser DOM node ```public/index.html```
-- Search "TO CHANGE" in the repo to remember what you need to change.
+- To add sections in the DOM go to ```navigation.jsx``` and add a new li passing the id of the component and add
+  the section component to the ```App.jsx``` component
 
 ### 3. Configuration
 - Use 14.17.6 node version
