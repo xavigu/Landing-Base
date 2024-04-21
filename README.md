@@ -19,6 +19,9 @@ This is a ReactJS based landing page template, fit for a startup company/service
 - The file ```src/index.js``` render the file ```App.jsx``` into a browser DOM node ```public/index.html```
 - Search "TO CHANGE" in the repo to remember what you need to change.
 
+### 3. Configuration
+- Use 14.17.6 node version
+
 ## Credits
 ##### Free CSS 
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>

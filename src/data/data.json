@@ -107,6 +107,36 @@
             "job": "Project Manager"
         }
     ],
+    "GalleryHexa": [
+        { 
+          "thumb": "https://picsum.photos/id/1040/300/300", 
+          "alt": "a house on a mountain" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/106/300/300", 
+          "alt": "sime pink flowers" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/136/300/300", 
+          "alt": "big rocks with some trees" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/1039/300/300", 
+          "alt": "a waterfall, a lot of tree and a great view" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/110/300/300", 
+          "alt": "a cool landscape" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/1047/300/300", 
+          "alt": "inside a town between two big buildings" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/1057/300/300", 
+          "alt": "a great view of the sea above the mountain" 
+        }
+    ],    
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
