@@ -1,3 +1,4 @@
+import './gallery.css';
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 

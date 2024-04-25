@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './team-grid.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export const TeamGrid = (props) => {

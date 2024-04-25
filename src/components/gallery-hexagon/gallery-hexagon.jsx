@@ -1,8 +1,7 @@
+import './gallery-hexagon.css';
 import React from "react";
 
 export const GalleryHexa = (props) => {
-  console.log('props: ', props)
-
   return (
     <div id="portfolio-hexa" className="text-center">
       <div className="container">

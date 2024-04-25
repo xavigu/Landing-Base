@@ -1,16 +1,18 @@
 import { useState, useEffect } from 'react'
-import { Navigation } from './components/navigation'
-import { Header } from './components/header'
-import { Features } from './components/features'
-import { About } from './components/about'
-import { Services } from './components/services'
-import { Gallery } from './components/gallery'
-import { GalleryHexa } from './components/gallery-hexagons'
-import { Testimonials } from './components/testimonials'
-import { Footer } from './components/footer'
-import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-import { TeamGrid } from './components/team-grid'
+import JsonData from './data/data.json'
+// Layout components
+import { Navbar } from './layout/navbar/navbar.jsx'
+import { Footer } from './layout/footer/footer.jsx'
+// Components
+import { Header } from './components/header'
+import { Features } from './components/features/features.jsx'
+import { About } from './components/about/about.jsx'
+import { Services } from './components/services'
+import { Gallery } from './components/gallery/gallery.jsx'
+import { GalleryHexa } from './components/gallery-hexagon/gallery-hexagon.jsx'
+import { Testimonials } from './components/testimonials/testimonials.jsx'
+import { TeamGrid } from './components/team-grid/team-grid'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,7 +27,7 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navbar />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -33,7 +35,7 @@ const App = () => {
       {/* <Team data={landingPageData.Team} /> */}
       <TeamGrid data={landingPageData.TeamGrid}/>
       <Gallery data={landingPageData.Gallery}/>
-      {/* <GalleryHexa data={landingPageData.GalleryHexa}/> */}
+      <GalleryHexa data={landingPageData.GalleryHexa}/>
       <Testimonials data={landingPageData.Testimonials} />
       <Footer />
     </div>

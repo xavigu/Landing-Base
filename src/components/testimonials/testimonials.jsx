@@ -1,3 +1,4 @@
+import './testimonials.css'
 export const Testimonials = (props) => {
   return (
     <div id='testimonials'>
