@@ -1,5 +1,5 @@
 import './services.css'
-export const Services = (props) => {
+export const Services = ({ services }) => {
   return (
     <div id='services' className='text-center'>
       <div className='container'>
@@ -11,14 +11,14 @@ export const Services = (props) => {
           </p>
         </div>
         <div className='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
+          {services
+            ? services.map((service, i) => (
+                <div key={`${service.name}-${i}`} className='col-md-4'>
                   {' '}
-                  <i className={d.icon}></i>
+                  <i className={service.icon}></i>
                   <div className='service-desc'>
-                    <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    <h3>{service.name}</h3>
+                    <p>{service.text}</p>
                   </div>
                 </div>
               ))

@@ -23,6 +23,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({})
+  // load data from json
   useEffect(() => {
     setLandingPageData(JsonData)
   }, [])
@@ -33,7 +34,7 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      <Services services={landingPageData.Services} />
       {/* <Team data={landingPageData.Team} /> */}
       <TeamGrid data={landingPageData.TeamGrid}/>
       <Gallery data={landingPageData.Gallery}/>

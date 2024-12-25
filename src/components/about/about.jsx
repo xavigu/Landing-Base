@@ -5,7 +5,7 @@ export const About = (props) => {
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
-            {/* remove video property in data.json if you want image instead video */}
+            {/* remove video property from data.json if you want image instead video */}
             {props.data && props.data.video
               ? <iframe src={`https://www.youtube.com/embed/${props.data.video}`} title="YouTube video" allowFullScreen></iframe>
               : <img src='img/about.jpg' className='img-responsive' alt='' />
