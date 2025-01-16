@@ -15,6 +15,7 @@ import { Team } from './components/team/team.jsx'
 import { Gallery } from './components/gallery/gallery.jsx'
 import { GalleryHexa } from './components/gallery-hexagon/gallery-hexagon.jsx'
 import { Contact } from './components/contact/contact.jsx'
+import { GalleryRotate3D } from './components/gallery-rotate-3d/gallery-rotate-3d.jsx'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -37,8 +38,9 @@ const App = () => {
       <Services services={landingPageData.Services} />
       {/* <Team data={landingPageData.Team} /> */}
       <TeamGrid data={landingPageData.TeamGrid}/>
-      <Gallery data={landingPageData.Gallery}/>
+      {/* <Gallery data={landingPageData.Gallery}/> */}
       {/* <GalleryHexa data={landingPageData.GalleryHexa}/> */}
+      <GalleryRotate3D data={landingPageData.GalleryRotate3D}/>
       <Testimonials data={landingPageData.Testimonials} />
       {/* <Contact data={landingPageData.Contact} /> */}
       <Footer />
