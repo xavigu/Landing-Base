@@ -255,6 +255,24 @@
           "alt": "a great view of the sea above the mountain" 
         }
     ],    
+    "GalleryRadiusHover": [
+        { 
+          "thumb": "https://picsum.photos/id/610/300/300", 
+          "alt": "Beach" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/605/300/300", 
+          "alt": "City" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/623/300/300", 
+          "alt": "Travel" 
+        },
+        { 
+          "thumb": "https://picsum.photos/id/627/300/300", 
+          "alt": "Forest" 
+        }
+    ],    
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
